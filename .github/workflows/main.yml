@@ -17,7 +17,7 @@ jobs:
         go-version: '^1.14.2'
 
     - name: Make binary
-      uses: go build
+      run: go build
       env:
         CGO_ENABLED: 0
 
